@@ -1,0 +1,106 @@
+---
+title: "First Knit"
+author: "Bowens Arvin"
+date: "feb. 6th, 20200"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##  Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting? 
+
+  I am currently in the second row of the right side of the class in the front. I usually sit in the very front row but all the seats were taken. i am sitting at computer number 17.  On a scale from 1-10 I wouldnt change my seat. i wouldnt switch my seat because there is no need to i feel comfrontable. 
+
+###my answer     
+  
+     
+
+
+##  Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+i would love to be called Arvin.
+###my answer     
+  
+   
+ 
+
+
+
+
+##  Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+What I want to achieve in life are many things but i want to open my own business in life with my own clothing brand and a huge shoe collection with one of my best friends. I am going to achieve my AA and i also want to be a police officer.
+###my answer     
+  
+   
+ 
+
+
+
+
+##  Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+I have never been to a foreign country. But I wanted to go to Australia but right now its half way burnt up. Ive never went to the military and if i got drafted im not going.  
+
+
+###my answer     
+  
+   
+  
+
+
+
+
+##  Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+I would like an "A" But i will work hard for an "A". my plan is to be great and be great.
+
+ 
+###my answer     
+  
+   
+ 
+
+
+
+
+
+##  Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+
+I would rate myself at a 8 because i know alot about computers but i can always learn more. i have a windows computer and i have good internet access. i drive my mustang to class. I work at six flags and i am a manager. 
+###my answer   
+  
+   
+  
+
+
+
+
